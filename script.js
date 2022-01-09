@@ -19,7 +19,7 @@ async function fetchWeather(cityName) {
     } else {
       temperature = "imperial";
     }
-    const url = `https://api.openweathermap.org/data/2.5/weather?q=${cityName}&appid=0107370fa8d4a90ed230a9ec0d8e2f4e&units=${temperature}`;
+    const url = `https://api.openweathermap.org/data/2.5/weather?q=${cityName}&appid=secret&units=${temperature}`;
     const response = await fetch(url);
     const cityWeather = await response.json();
     display(cityName, cityWeather, temperature);
