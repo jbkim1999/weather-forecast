@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<head>
+  <link rel="stylesheet" href="style.css">
+  <title> Weather Forecast </title>
+</head>
+<body>
+  <form>
+    <input type="text" id="city" placeholder="Enter a city name">
+    <button>Get the weather</button>
+    <input type="reset" value="Reset">
+  </form>
+  <br>
+  <label for="celsius">Celcius</label>
+  <input type="radio" id="celsius" name="temperature" value="celsius" checked>
+  <br>
+  <label for="fahrenheit">Fahrenheit</label>
+  <input type="radio" id="fahrenheit" name="temperature" value="fahrenheit">
+  <br><br>
+  <h1 id="loader" style="display: none">Loading...</h1>
+  <div class="weather-container"></div>
+  <script src="script.js"></script>
+</body>
