@@ -1,4 +1,4 @@
-# weather-forecast
+# Weather-forecast
 Want to know the weather around your area?
 
 Made use of...
